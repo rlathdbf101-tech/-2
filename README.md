@@ -141,4 +141,4 @@ async def check_user_status_error(interaction: discord.Interaction, error: app_c
     if isinstance(error, app_commands.errors.MissingAnyRole):
         await interaction.response.send_message("❌ 권한이 없습니다.", ephemeral=True)
 
-client.run('MTUwNjI2NjQ4ODgyNTE4ODU0NA.Gp17I4.Z92dnPGHTzlqvnpzZjLqvu9-MamiPIf2xhDxxs')
+client.run('MTUwNjI2NjQ4ODgyNTE4ODU0NA.GelF3C.vPdFaSNktk30Hsu8aNw2OC6Sl3cqQyaEY6ymnA')
